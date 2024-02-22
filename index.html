@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="Images/logo.jpg" type="image/icon type">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="carousel.css" rel="stylesheet">
+    <title>SMCC</title>
+<style>
+    
+    body {
+        background-color: #E1E3E7;
+        }
+        
+    .container-heading{
+        background-color: #FFC619;
+        padding: 1px;
+    }
+    h1{
+        color:white;
+    }
+    h2{
+        text-align: center;
+        color:white;
+        font-size: 30px;
+        }
+    h3{
+        color:black;
+        font-size: 20px;
+        padding-left: 20px;
+        }
+    p{
+        padding-left: 20px;
+    }
+    a {
+        display: block;
+        color:black;
+        padding: 8px 16px;
+        text-decoration: none;
+        }
+    a:hover {
+        background-color:#FDA300
+        }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    header{
+        background-color: #024089;
+        display: flex;
+        align-items: center;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+    }
+    #logo{
+        flex-shrink: 0; 
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .carousel-item{
+        height: 32rem;
+        background: #777;
+        position: relative;
+        background-position: center;
+        background-size:cover ;
+    }
+    .container{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-bottom: 50px;
+    }
+    .overlay-image{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-position: center;
+        background-size:cover ;
+        opacity: 0.5;
+    }
+
+</style>
+</style>
+</head>
+<body>
+    <header>
+        <img id="logo" src="Images/logo.jpg">
+        <h1>SAINT MICHAEL COLLEGE OF CARAGA</h1><hr>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About SMCC</a></li>
+            <li><a href="#course">Courses Offered</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" >
+                <div class="overlay-image" style="background-image:url(./Images/carousel1.jpg)"></div>
+                <div class="container">
+                        <h1>Example Headline1</h1>
+                        <p>potatoes</p>
+                        <a href="#" class="btn btn-lg btn-primary">Register</a>
+                    </div>
+            </div>
+            <div class="carousel-item">
+                <div class="overlay-image" style="background-image:url(./Images/carousel2.jpg)"></div>
+                <div class="container">
+                    <h1>Example Headline2</h1>
+                    <p>potatoes</p>
+                    <a href="#" class="btn btn-lg btn-primary">Register</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="overlay-image" style="background-image:url(./Images/carousel3.jpg)"></div>
+                <div class="container">
+                    <h1>Example Headline3</h1>
+                    <p>potatoes</p>
+                    <a href="#" class="btn btn-lg btn-primary">Register</a>
+                </div>
+            </div>
+        </div>
+        <a href="#myCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+            <span class="sr-only"></span>
+            <span class="carousel-control-prev-icon" arla-hidden="true"></span>
+        </a>
+        <a href="#myCarousel" class="carousel-control-next" role="button" data-bs-slide="next">
+            <span class="sr-only"></span>
+            <span class="carousel-control-next-icon" arla-hidden="true"></span>
+        </a>
+    </div>
+    
+
+
+    
+    
+    
+    <hr>
+    <main>
+        
+
+        <article id="about">
+            <section>
+
+                <div class="container-heading">
+                    <h2>About SMCC</h2>
+                </div>
+                <hr>
+                <h3>SMCC VGMO:</h3>
+                <h3 style="color: black;">Vision</h3><p>Saint Michael College of Caraga envisions to be a university by 2035 and upholds spiritual formation and excellence in teaching, service, and research.</p>
+                <h3 style="color: black;">Mission</h3><p>As such SMCC, commits itself:</p>
+                <p>- SMCC shall provide spiritual formation and learning culture that will ensure the students with excellent and rewarding learning experience that transform lives, abound spirituality, develop skills and prepare future leaders;
+                <br>- SMCC shall engage to dynamic, innovative, and interdisciplinary researches that are publishable to advance and achieve institutional initiatives; and
+                <br>-SMCC shall commit to serve the diverse and local communities in fostering innovations through service-learning that enhances reciprocal community partnerships for spiritual and social development.</p>
+                <h3 style="color: black;">Goals</h3><p>Uphold Culture of Excellence in the Areas of Spiritual Formation, Instruction, Research, and Extension, thus Produce Graduates that are Globally Competent, Spiritually Embodied, and Socially Responsible. </p>
+                <h3 style="color: black;">Objectives</h3><p>To integrate positive and evangelical values in all areas and design Christian formation programs that are effective and responsive to the psychospiritual needs of the students, pupils, parents, and personnel. To continuously enhance the curriculum and upgrade teachers’ professional, emotional, spiritual growth, and quality of instruction.
+                    <br>
+                    -To continue upgrading facilities and services for the satisfaction of the clientele.
+                    -<br>
+                    -To intensify the curriculum-based and institutional researches that are dynamic, innovative, and interdisciplinary
+                    <br>
+                    -To implement programs that help educate, motivate, and inspire to assume an active role and become socially responsible stewards of God’s creation.
+                    -<br>
+                    -To provide the best student services catering physical, mental, emotional, spiritual, socio-cultural needs of the students.
+                    <br>
+                    -To establish harmonious linkages with the Alumni, PTA, LGU, and other stakeholders to gain support for the school development plans.
+                    <br>
+                    -To work for Accreditation by any recognized accrediting agency. </p>
+                <h3 style="color: black;">Michaelinian Identity</h3>
+                <p>Secured by Saint Michael the Archangel’s Sword of Bravery and Victory, nourished by the faithful acceptance and practice of the Christian teachings and guidance of the Catholic church, animated by MARY’s maternal devotion and intercession, guided by the gospel values, empowered by Christ’s life and examples - the Michaelinians of today and tomorrow are persons who are:  
+                    <br><br>
+                    S – ocially Responsible for the respect, care, love and development of God’s creations as such at all times demonstrate and live-out their social responsibilities;
+                    <br>
+                    M – issionaries of Christian Values, possessing a faith that is dynamic to imbibe and to proclaim and promote the Christian values, hence, sharing in the mission of Christ and of the Catholic church to make all people members of one sheepfold of God; 
+                    <br>
+                    C – ommitted Indivuduals and/or Leaders, likened to the faithful commitment of Jesus to His Father, thus, upholding unconditional commitment to value-filled life and actions of love and mercy;
+                    <br>
+                    C – ompetent in their Chosen Field of Endeavors, performing with in-depth confidence as they exude in competence in the performance of their chosen field of endeavors.
+                    <br><br>
+                    Therefore, Michaelinians have the identities of Social Responsibility, Missionaries of Christian Values, Committed Individuals and/or Leaders, and Competent in their Chosen Field of Endeavors, which are paramount to transform people to be person-oriented, persons of values, persons of faith and love for God, and persons of love and mercy for others.</p>                
+                    <a href="#top" style="text-align: center;">Go Back</a>
+            </section>
+        </article>
+        <hr>
+        <article id="course">
+            <section>
+                <div class="container-heading">
+                    <h2>Courses Offered</h2>
+                </div>
+                <hr>
+                <div class="header">
+                    <img src="Images/cas.png">
+                    <h3>College of Arts and Sciences</h3>
+                </div>
+                
+                <ol>
+                    <li>AB English: Bachelor of Arts major in English Language</li>
+                </ol><br>
+                <div class="header">
+                    <img src="Images/cbm.png">
+                    <h3>College of Business and Management</h3>
+                </div>
+                
+                <ol>
+                    <li>BSBA - FM: Bachelor of Science in Business Administration major in Financial Management</li><br>
+                    <li>BSBA - HRM: Bachelor of Science in Business Administration major in Human Resource Management</li><br>
+                    <li>BSBA - MM: Bachelor of Science in Business Administration major in Marketing Management</li><br>
+                    <li>BPA: Bachelor of Public Administration</li><br>
+                    <li>BSE: Bachelor of Science in Entreprenuership</li>
+                </ol><br>
+
+                <div class="header">
+                    <img src="Images/ccis.png">
+                <h3>College of Computing and Information Science</h3>
+                </div>
+                <ol>
+                    <li>BSIT: Bachelor of Science in Information Technology</li><br>
+                    <li>BSIT: Bachelor of Science in Information Technology</li><br>
+                    <li>BLIS: Bachelor of Library and Information Science</li><br>
+                    <li>DIT: Diploma In Information Technology</li>
+                </ol><br>
+                
+                <div class="header">
+                    <img src="Images/ccje.png">
+                    <h3>College of Criminal Justice Education</h3>
+                </div>
+                <ol>
+                    <li>BSCrim: Bachelor of Science in Criminology</li><br>
+                    <li>BSISM: Bachelor of Science in Industrial Security Management</li>
+                </ol><br>
+
+                <div class="header">
+                    <img src="Images/cte.png">
+                    <h3>College of Teacher Education</h3>
+                </div>
+                <ol>
+                    <li>BEEd: Bachelor of Elementary Education</li><br>
+                    <li>BSEd - English: Bachelor of Secondary Education major in English</li><br>
+                    <li>BSEd - Science: Bachelor of Secondary Education major in Science</li><br>
+                    <li>BSEd - Soc Stud: Bachelor of Secondary Education major in Social Studies</li><br>
+                    <li>BPEd: Bachelor of Physical Education</li><br>
+                    <li>BTVTE: Bachelor of Technical Vocational Teacher Education</li><br>
+                    <li>BECEd: Bachelor of Early Childhood Education</li>
+                </ol><br>
+
+                <div class="header">
+                    <img src="Images/cthm.png">
+                    <h3>College of Tourism and Hospitality Management</h3>
+                </div>
+                <ol>
+                    <li>BSHM: Bachelor of Science in Hospitality Management</li><br>
+                    <li>BSTM: Bachelor of Science in Tourism Management</li><br>
+                    <li>DHMT: Diploma in Hospitality Management Technology</li><br>
+                    <li>DTMT: Diploma in Tourism Management Technology</li>
+                </ol><br>
+                <a href="#top" style="text-align: center;">Go Back</a>
+            </section>
+        </article>
+        <hr>
+        <article id="services">
+            <section>
+                <div class="container-heading">
+                    <h2>Services</h2>
+                </div>
+                <hr>
+                
+                <h2 style="color: black;">Student Services</h2>
+                <p style="text-align: center;">
+                    -Admission & Scholarship Services <br>
+                    -Auxiliary Services <br>
+                    -Campus Organization <br>
+                    -Guidance Services <br>
+                    -Health Services <br>
+                    -Housing & Residential <br> 
+                    -Safety & Security Services <br>
+                    -Student Discipline</p>
+                <h2 style="color: black;">Online Services</h2>
+                <p style="text-align: center;">
+                    -Online Enrollment <br>
+                    -Student Portal <br>
+                    -Official Facebook Page <br>
+                    -YouTube Channel</p>
+                <a href="#top" style="text-align: center;">Go Back</a>
+            </section>
+        </article>
+        <hr>
+        <article id="contact">
+            <section>
+                <div class="container-heading">
+                    <h2>Contact Us</h2>
+                </div>
+                <hr>
+                <a target="_blank" href="https://www.facebook.com/SMCCofficial">Facebook:@SMCCOfficial</a>
+                <a href="">Email: admin@smccnasipit.edu.ph</a>
+                <a href="">Contact Number: (085) 225-0208 / 0906-404-8695</a>
+            </section>
+        </article>
+    </main>
+    <footer style="text-align: center; background-color: #024089; padding: 1px;">
+        <p style="font-weight: bold;">All Rights Reserved &copy; Junry Baslan</p>
+        <a href="#top">Back To Top</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
